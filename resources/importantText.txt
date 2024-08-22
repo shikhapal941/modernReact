@@ -10,3 +10,22 @@ index.html : skeleton for react app (send to the browser when we access app in s
 package.json : to list all dependencies which we use in our project
 package.lock.json : to list all dependencies which we use in our project as a name
 node_modules.json : to list all dependencies which we use in our project as a folder
+steps to add code in git repository:
+1) create repository in git :
+  - https://github.com/dashboard
+  - click on new
+  - name 
+  - create repository
+2) in vs code :
+  - git init
+  - git remote add origin https://github.com/shikhapal941/modernReact.git
+  - git add .
+  - git commit "add message whatever you want to give"
+  - git push origin master
+React = Library that defines what a component is and how multiple components work together
+ReactDom = Library that knows how to get a component to show up in the browser
+JSX = javascript + Html  
+examples:
+    jsx : <h1>Hi there!!</h1>
+     babel helps to convert jsx into javascript
+    javascript : React.createElement("h1",null,"Hi there!!")
