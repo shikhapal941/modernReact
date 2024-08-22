@@ -1,0 +1,12 @@
+https://codesandbox.io/p/sandbox/react-forked-f83chj?file=%2Fsrc%2FApp.js%3A7%2C49
+create app : npx create-react-app jsx (project name)
+run app : npm run start or npm start
+to stop run : CTRL + c (press)
+babel : it is a tool to convert jsx code int normal js code to understand by browser
+webpack : it is a tool to merge all project files into single file which is called bundle.js
+bundle.js : it is in browser with index.html (send down index.html to browser , browser loads html then send bundle.js to browser)
+index.js : first file which gets executed when we run code
+index.html : skeleton for react app (send to the browser when we access app in server)
+package.json : to list all dependencies which we use in our project
+package.lock.json : to list all dependencies which we use in our project as a name
+node_modules.json : to list all dependencies which we use in our project as a folder
